@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/twotone_home_black_18dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_latest"
+            android:icon="@drawable/twotone_filter_none_black_18dp"
+            android:title="Latest" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Category" />
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/twotone_favorite_black_18dp"
+            android:title="My Favourite" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/twotone_perm_identity_black_18dp"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_share_app"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/Rate_App"
+                android:icon="@drawable/twotone_stars_black_18dp"
+                android:title="Rate App" />
+
+            <item
+                android:id="@+id/privacyPolicy"
+                android:icon="@drawable/twotone_lock_black_18dp"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/name"
+
+                android:title="Developed By: Ali Rana" />
+        </menu>
+    </item>
+
+</menu>
+
+
